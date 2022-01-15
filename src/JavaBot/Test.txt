@@ -1,0 +1,15 @@
+if (args[0].equalsIgnoreCase(prefix + "about")){
+            EmbedBuilder embed = new EmbedBuilder();
+            embed.setTitle("About BetaMusicBot");
+            embed.setThumbnail("https://cdn.discordapp.com/avatars/887710788658270259/67fbdbc856371011ff25561110ccf5a7.png?size=256");
+            embed.setColor(Color.CYAN);
+            embed.setDescription("A not so interesting bot");
+            embed.addField("Java Version:","OpenJDK 1.8", false);
+            embed.setFooter("A Bot By " +  OwnerID, input.getGuild().getOwner().getUser().getAvatarUrl());
+            input.getChannel().sendMessage(embed.build()).queue();
+            embed.clear();
+        }else if (args[0].equalsIgnoreCase(prefix + "")){
+            input.getChannel().sendMessage("");
+        }else if (args[0].equalsIgnoreCase(prefix = "test")){
+            input.getChannel().sendMessage("Sending text successfully");
+        }

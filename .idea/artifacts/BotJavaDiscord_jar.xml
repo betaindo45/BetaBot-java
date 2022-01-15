@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BotJavaDiscord:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BotJavaDiscord_jar</output-path>
+    <root id="archive" name="BotJavaDiscord.jar">
+      <element id="module-output" name="BotJavaDiscord" />
+    </root>
+  </artifact>
+</component>
